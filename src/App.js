@@ -40,7 +40,7 @@ function App() {
           dispatch(setCurrentTrack(track))
         })
     }
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="app">

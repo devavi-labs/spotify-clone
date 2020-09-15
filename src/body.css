@@ -41,7 +41,7 @@
     font-size: 14px;
 }
 
-.body > a {
+.body > button {
     display: none;
 }
 
@@ -79,7 +79,9 @@
         align-items: center;
     }
 
-    .body > a {
+    .body > button {
+        border: none;
+        outline: none;
         display: block;
         margin: 16px auto;
         padding: 12px 32px;

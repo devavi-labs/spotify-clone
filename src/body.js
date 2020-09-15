@@ -1,4 +1,3 @@
-import { Input } from '@material-ui/core'
 import { Favorite, MoreHoriz, PlayCircleFilled } from '@material-ui/icons'
 import React from 'react'
 import './body.css'
@@ -22,7 +21,7 @@ function Body({ spotify }) {
                     <p>{discoverWeekly?.description}</p>
                 </div>
             </div>
-            <a>SHUFFLE PLAY</a>
+            <button>SHUFFLE PLAY</button>
             <div className='body__songs'>
                 <div className='body__icons'>
                     <PlayCircleFilled className='body__shuffle' />
